@@ -1,0 +1,7 @@
+1.create table cities (id int(20)primary key, name varchar(20),state varchar(40));
+2.INSERT INTO cities (id, name, state)
+VALUES (23, ban, karanataka);
+3.SELECT id, name,
+FROM cities
+ORDER BY name ASC;
+4 SELECT STATE,COUNT(NAME) FROM CITIES ORDER BY COUNT;
